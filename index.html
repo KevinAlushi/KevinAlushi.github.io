@@ -1,39 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevin Alushi</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
-    <h1>Kevin Alushi</h1>
-    <p>Computer Science Student at Polis University, Tirana</p>
+    <div class="portfolio">
 
-    <h2>Projects</h2>
+        <div class="hero">
+            <h1 class="hero-name">Kevin Alushi</h1>
+            <p class="hero-sub">Computer Science student at Polis University, Tirana</p>
+            <div class="hero-badges">
+                <span class="badge">📍 Tirana, Albania</span>
+                <span class="badge">🎓 2nd year CS</span>
+                <a href="https://github.com/KevinAlushi" target="_blank" class="badge badge-link">GitHub: KevinAlushi</a>
+            </div>
+        </div>
 
-    <div>
-        <h3>KanDone</h3>
-        <p>A personal Kanban board web app for managing projects and tasks without the hassle. Features Google authentication, real-time sync across devices, drag-and-drop task management, and project analytics.</p>
-        <a href="https://kandone.vercel.app" target="_blank">Try it live</a>
-    </div>
+        <p class="section-label">Projects</p>
+        <div class="projects">
 
-    <div>
-        <h3>Electrical Interference Simulation</h3>
-        <p>A Java program that simulates how a message gets corrupted when transmitted through a noisy channel.</p>
-        <a href="https://github.com/KevinAlushi/electrical-interference-simulation" target="_blank">View on GitHub</a>
-    </div>
+            <a class="card" href="https://kandone.vercel.app" target="_blank">
+                <div class="card-top">
+                    <div class="card-icon web">📋</div>
+                    <span class="card-tag">React · TypeScript</span>
+                </div>
+                <p class="card-title">KanDone</p>
+                <p class="card-desc">A personal Kanban board web app for managing projects and tasks without the hassle. Features Google authentication, real-time sync, drag-and-drop, and project analytics.</p>
+                <span class="card-link">Try it live →</span>
+            </a>
 
-    <div>
-        <h3>Guessing Number Game</h3>
-        <p>A Java console game where the player tries to guess a randomly generated number within a limited number of attempts.</p>
-        <a href="https://github.com/KevinAlushi/guessing-number-game" target="_blank">View on GitHub</a>
-    </div>
+            <a class="card" href="https://github.com/KevinAlushi/corrupted-channel-simulation" target="_blank">
+                <div class="card-top">
+                    <div class="card-icon cpp">⚡</div>
+                    <span class="card-tag">C++</span>
+                </div>
+                <p class="card-title">Corrupted Channel Simulation</p>
+                <p class="card-desc">Desktop app simulating bit corruption through a noisy channel, with a Matrix-style animated background and real-time output.</p>
+                <span class="card-link">View on GitHub →</span>
+            </a>
 
-    <h2>Skill Set</h2>
-    <div>
-        <p>Java · Python · C++ · Data Structures & Algorithms · OOP · Computer Networks · Web Programming</p>
+            <a class="card" href="https://github.com/KevinAlushi/Gradess" target="_blank">
+                <div class="card-top">
+                    <div class="card-icon java">📊</div>
+                    <span class="card-tag">Java · Swing</span>
+                </div>
+                <p class="card-title">Gradess</p>
+                <p class="card-desc">Desktop app for tracking university subjects and grades, built with Java Swing and packaged as a Windows installer.</p>
+                <span class="card-link">View on GitHub →</span>
+            </a>
+
+            <a class="card" href="https://github.com/KevinAlushi/electrical-interference-simulation" target="_blank">
+                <div class="card-top">
+                    <div class="card-icon java">🔢</div>
+                    <span class="card-tag">Java</span>
+                </div>
+                <p class="card-title">Electrical Interference Simulation</p>
+                <p class="card-desc">Java console program simulating how messages get corrupted when transmitted through a noisy channel at the bit level.</p>
+                <span class="card-link">View on GitHub →</span>
+            </a>
+
+            <a class="card" href="https://github.com/KevinAlushi/guessing-number-game" target="_blank">
+                <div class="card-top">
+                    <div class="card-icon game">🎲</div>
+                    <span class="card-tag">Java</span>
+                </div>
+                <p class="card-title">Guessing Number Game</p>
+                <p class="card-desc">Console game where the player guesses a randomly generated number within a limited number of attempts based on chosen difficulty.</p>
+                <span class="card-link">View on GitHub →</span>
+            </a>
+
+        </div>
+
+        <p class="section-label">Skill Set</p>
+        <div class="skills-grid">
+            <div class="skill-item"><span class="skill-dot" style="background:#D85A30"></span>Java</div>
+            <div class="skill-item"><span class="skill-dot" style="background:#185FA5"></span>C++</div>
+            <div class="skill-item"><span class="skill-dot" style="background:#1D9E75"></span>Python</div>
+            <div class="skill-item"><span class="skill-dot" style="background:#7F77DD"></span>Data Structures</div>
+            <div class="skill-item"><span class="skill-dot" style="background:#BA7517"></span>OOP</div>
+            <div class="skill-item"><span class="skill-dot" style="background:#888780"></span>Computer Networks</div>
+            <div class="skill-item"><span class="skill-dot" style="background:#639922"></span>Web Programming</div>
+            <div class="skill-item"><span class="skill-dot" style="background:#444441"></span>Git</div>
+        </div>
+
     </div>
 
 </body>
